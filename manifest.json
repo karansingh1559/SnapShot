@@ -1,0 +1,17 @@
+  {
+  "name": "SnapShot",
+  "version": "1",
+  "description": "Take screenshots using the chrome.tabs api",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "camera.png",
+    "default_title": "Snap It!"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "manifest_version": 2
+}
